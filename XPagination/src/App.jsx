@@ -22,6 +22,7 @@ function EmployeeTable() {
       })
       .catch(() => {
         setError("Failed to fetch data");
+        console.error("Error fetching data:", error);
       });
   };
 
