@@ -21,8 +21,8 @@ function EmployeeTable() {
         setTotalPages(totalPages);
       })
       .catch(() => {
-        setError("Failed to fetch data");
-        console.error("Error fetching data:", error);
+        setError('Failed to fetch data.');
+        console.error('Error fetching data:', error);
       });
   };
 
